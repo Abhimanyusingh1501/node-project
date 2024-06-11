@@ -9,17 +9,17 @@ phases:
         # install npm
         - npm install
        
-  build:
-    commands:
+#  build:
+#    commands:
         # run build script
-        - npm run build
+#        - npm run build
      
-artifacts:
+#artifacts:
   # include all files required to run application
   # notably excluded is node_modules, as this will cause overwrite error on deploy
-  files:
-    - public/**/*
-    - src/**/*
-    - package.json
-    - appspec.yml
+#  files:
+#    - public/**/*
+#     - src/**/*
+#    - package.json
+#    - appspec.yml
     - scripts/**/*
