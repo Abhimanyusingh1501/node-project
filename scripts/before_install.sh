@@ -26,7 +26,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.lis
 
 # Update apt package index again
 apt-get update
-
+apt-get install npm -y
 # Install Yarn
 apt-get install -y yarn
 
