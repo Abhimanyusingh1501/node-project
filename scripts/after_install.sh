@@ -6,6 +6,6 @@ cd /app
 # install dependencies
 npm install
 npm run build
-cp -r . /var/www/html
+cp  . /var/www/html
 npm install pm2 -g
 apt install yarn -y
